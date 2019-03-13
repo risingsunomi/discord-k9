@@ -1,0 +1,19 @@
+{
+  "name": "discord-k9",
+  "version": "1.0.0",
+  "description": "k9 bot for discord",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "author": "Vincent Castro <vincentcastro@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.4.2",
+    "get-json": "^1.0.1",
+    "moment": "^2.24.0",
+    "request": "^2.88.0"
+  }
+}
