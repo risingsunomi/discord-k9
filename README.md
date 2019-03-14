@@ -11,7 +11,8 @@ create a local.js
 ```javascript
 /* local.js */
 module.exports = {
-    botid: 'BOT API KEY FROM DISCORD'
+    botid: 'BOT API KEY FROM DISCORD',
+    imgurCID: 'IMGUR API CLIENT ID'
 };
 ```
 run it
