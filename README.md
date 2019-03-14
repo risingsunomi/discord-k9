@@ -32,6 +32,7 @@ npm start
 - [X] !4chan-vg
 - [X] !4chan-k
 - [X] !4chan-ck
+- [ ] !imeme-imgur
 
 ## Work in progress
 - [ ] [refactor] If-else if for command parsing is a bad structure. Upgrade to a more functional approach
