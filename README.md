@@ -3,6 +3,22 @@ Discord entertainment bot
 
 This was created initially for testing out the Discord API along with other obsecure APIs to interface through Discord API. Code will be updated and refactor as needed.
 
+## Installing
+```
+npm install
+```
+create a local.js
+```javascript
+/* local.js */
+module.exports = {
+    botid: 'BOT API KEY FROM DISCORD'
+};
+```
+run it
+```
+npm start
+```
+
 ## Work in progress
 - [ ] [refactor] If-else if for command parsing is a bad structure. Upgrade to a more functional approach
 - [ ] [bug] Not all arrays are checked for data
