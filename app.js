@@ -214,19 +214,23 @@ client.on('message', msg => {
 
             let randj = Math.floor(Math.random() * resp.length);
             let randI = Math.floor(Math.random() * resp[0].threads.length);
-            
-            if(!('sticky' in resp[randj].threads[randI])){
-                // console.log(resp[0].threads[i]);
-                try {
-                    msg.reply(
-                        'http://i.4cdn.org/s/'+
-                        resp[randj].threads[randI].tim+
-                        resp[randj].threads[randI].ext
-                    );
-                } catch(err) {
-                    console.log(err);
-                    msg.reply('Sorry no sexy pics...');
+
+            if(resp[randj].threads[randI]) {
+                if(!('sticky' in resp[randj].threads[randI])){
+                    // console.log(resp[0].threads[i]);
+                    try {
+                        msg.reply(
+                            'http://i.4cdn.org/s/'+
+                            resp[randj].threads[randI].tim+
+                            resp[randj].threads[randI].ext
+                        );
+                    } catch(err) {
+                        console.log(err);
+                        msg.reply('Sorry no sexy pics...');
+                    }
                 }
+            } else {
+                msg.reply('Sorry no sexy pics...');
             }
             
             return;
