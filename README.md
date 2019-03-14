@@ -1,5 +1,4 @@
 # K9 Discord Bot
------
 Discord entertainment bot
 
 This was created initially for testing out the Discord API along with other obsecure APIs to interface through Discord API. Code will be updated and refactor as needed.
