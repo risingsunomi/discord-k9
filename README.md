@@ -18,6 +18,19 @@ run it
 ```
 npm start
 ```
+## Commands
+- [X] !r34-random
+- [X] !r34 tag
+- [ ] !pron
+- [X] !meme-imgflip (imgflip API slow to respond sometimes)
+- [X] !4chan-pol
+- [X] !4chan-x
+- [X] !4chan-wg
+- [X] !4chan-s
+- [X] !4chan-v
+- [X] !4chan-vg
+- [X] !4chan-k
+- [X] !4chan-ck
 
 ## Work in progress
 - [ ] [refactor] If-else if for command parsing is a bad structure. Upgrade to a more functional approach
